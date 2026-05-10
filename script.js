@@ -42,7 +42,7 @@ const NA_NAZWE = [
     ['SO<sub>2</sub>',['tl.siarki','(iv)',false]],
     ['K<sub>2</sub>O',['tl.potasu','(i)',true]],
     ['Rb<sub>2</sub>O',['tl.rubidu','(i)',true]],
-    ['CO<sub>2</sub>',['tl.węgla','(iv)',false]],
+    ['CO<sub>2</sub>',['tl.wegla','(iv)',false]],
     ['MnO<sub>3</sub>',['tl.manganu','(vi)',false]],
     ['RaO',['tl.radu','(ii)',true]],
     ['Co<sub>2</sub>O<sub>3</sub>',['tl.kobaltu','(iii)',false]],
