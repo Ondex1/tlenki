@@ -98,7 +98,6 @@ function onload() {
     document.addEventListener('focusin', function(e) {
         if (e.target.tagName === 'INPUT') {
             lastFocused = e.target;
-            setTimeout(() => e.target.scrollIntoView({block: 'nearest'}), 500);
         }
     });
     overlay.addEventListener('click', function() {
