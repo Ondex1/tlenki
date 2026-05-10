@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="onload()">
+    <div id="overlay" onclick="this.style.display='none'">
+        <img src="ukladokresowy.jpg">
+    </div>
+    <div id="content">
+        <h1 align=center style="margin:0;font-size:clamp(1.25em,2.5vw,1.75em);">Wpisz odpowiedzi w białe pola, małe liczby się zapisuje dużymi np. H2O to H<sub>2</sub>O. Można (ale nie trzeba) wpisywać wartościowości kiedy pierwiastek ma tylko jedną. "tlenek" można zapisać skrótem (tl.). Wszystkie dane są brane z czarno-białego układu okresowego na końcu podręcznika. Zdjęcie można kliknąć by powiększyć jeśli nie zajmuje całej szerokości ekranu.</h1>
+        <div id="main">
+            <img id="ukladokresowy" src="ukladokresowy.jpg" onclick="openOverlay()">
+            <div id="verb2"></div>
+        </div>
+    </div>
+    <div id="buttons">
+        <button id="check" onclick="check()">Sprawdź</button>
+        <button onclick="generate()">Wygeneruj</button>
+        <button id="ans" onclick="toggleAnwsers()">Pokaż Odpowiedzi</button>
+    </div>
+</body>
+</html>
