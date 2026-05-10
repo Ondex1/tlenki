@@ -1,4 +1,0 @@
-# tlenki
-# tlenki
-# tlenki
-# tlenki
