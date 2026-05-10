@@ -85,7 +85,16 @@ body {
     flex: 1;
     font-size: 1em;
     padding: .4em 0;
-    -webkit-tap-highlight-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+@media (hover: none) {
+    #buttons button:hover:not(:active) {
+        outline: none;
+        box-shadow: none;
+        background-color: ButtonFace;
+    }
 }
 
 #overlay {
